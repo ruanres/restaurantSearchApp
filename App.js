@@ -6,9 +6,9 @@ const navigator = createStackNavigator({
   Search: SearchScreen,
 }, {
   initialRouteName: 'Search',
-    defaultNavigationOptions: {
-      title: 'Business Search',
-    },
-})
+  defaultNavigationOptions: {
+    title: 'Business Search',
+  },
+});
 
 export default createAppContainer(navigator);
