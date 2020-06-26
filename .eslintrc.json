@@ -18,5 +18,9 @@
         "react"
     ],
     "rules": {
+        "react/jsx-filename-extension": "off",
+        "react/prop-types": "off",
+        "no-use-before-define": "off",
+        "import/no-extraneous-dependencies": "off"
     }
 }
