@@ -6,6 +6,8 @@ import { withNavigation } from 'react-navigation';
 import ResultsDetail from './ResultsDetail';
 
 const ResultsList = ({ title, results, navigation }) => {
+  if (!results.length) return null;
+
   const renderItem = ({ item }) => (
     <TouchableOpacity onPress={() => navigation.navigate('ResultsShow', {
       id: item.id,
