@@ -24,6 +24,7 @@ const SearchScreen = () => {
             ['Cost Effective', '$'],
             ['Bit Pricier', '$$'],
             ['Big Spender', '$$$'],
+            ['Rich', '$$$$'],
           ].map(([title, price]) => (
             <ResultsList
               title={title}
